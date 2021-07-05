@@ -1,0 +1,200 @@
+table{
+    border: 1px solid red;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+
+.header{
+    height: 50px;
+    background: #444;
+}
+.header h1 a{
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header ul li a:hover{
+    color: aqua;
+    transition: .3s;
+}
+
+
+.search_box input {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  width: 70%;      
+}
+
+.search_box button {
+  padding: 6px 10px;
+  margin-left: -20px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.leftpane{
+    width: 20%;
+    height: 500px;
+    background: #999;
+    text-align: left;
+}
+.leftpane ul{
+    margin-bottom: 50px;
+}
+.leftpane ul li {
+    list-style: none;
+}
+.leftpane ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.leftpane ul li a:hover{
+    color: aqua;
+    padding-bottom: 20px;
+}
+.leftpane form input{
+    width: 90%;
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 10px;
+}
+.leftpane form button{
+    background: red;
+    padding: 10px 20px;
+    border: 1px solid red;
+    margin: 20px;
+    margin-left: 60px;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.pre_body{
+    background: #DCDDDF;
+}
+
+.body{
+    width: 60%;
+    height: 300px;
+}
+
+.body span{
+    display: inline-block;
+    padding-left: 50px;
+}
+.body h2{
+    text-transform: uppercase;
+}
+.body h3{
+    text-transform: uppercase;
+    padding: 10px;
+    border-bottom: 2px solid red;
+}
+.post_body{
+   background: #DCDDDF; 
+}
+.post_body span{
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+}
+
+.post_body span h4{
+    text-transform: uppercase;
+    color: chocolate;
+}
+.post_body span p{
+    text-align: left;
+    color: #000;
+}
+
+.post_body span img{
+    width: 100px;    
+}
+.post_body span i{
+    padding: 0 10px; 
+    font-size: 20px;
+}
+.post_body span i:hover{
+    color: darkred;  
+}
+
+.rightpane{
+    width: 20%;
+    height: 500px;
+    background: #999;
+}
+
+.rightpane img{
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+
+
+.footer{
+    height: 50px;
+    background: #444;
+    padding: 20px 0;
+}
+.footer address{
+    margin-top: 40px;
+}
+.footer h3{
+    font-size: 20px;
+    color: tomato;
+    text-transform: uppercase;
+}
+.footer p{
+    font-size: 16px;
+    margin: 0;
+    color: aliceblue;
+    padding: 0 20px;
+}
+
+.footer i{
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.footer i:hover{
+    color: darkred;
+    border: 1px solid red;
+}
+
+.copyright{
+    background: #333;
+    color: #fff;
+}
+.copyright p{
+    margin: 0;
+    padding: 10px 0;
+}
